@@ -1,0 +1,166 @@
+span#languages {
+    width: 50px;
+    color: #828282;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    float: right;
+    font-weight: bold;
+    font-size: larger;
+    position: absolute;
+    right: 18%;
+    top: 28%;
+
+}
+
+#aboutdesigner {
+    font-size: larger;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 3px;
+}
+
+#eng {
+    color: black;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold Italic'), local('Gilroy-Bold-Italic'),
+        url('Gilroy-BoldItalic.woff2') format('woff2'),
+        url('Gilroy-BoldItalic.woff') format('woff'),
+        url('Gilroy-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+#maininf {
+    background-color: #F6F6F6;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    padding: 80px;
+}
+
+.portfolio {
+    display: block;
+    padding: 45px;
+}
+
+#maininf,
+#work,
+.skills,
+.maininf {
+    text-align: center;
+}
+
+.b1 {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    height: 43px;
+    width: 190px;
+    margin: 10px;
+}
+
+#aboutme {
+    font-family: 'Gilroy', 'Times New Roman', Times, serif;
+}
+
+.maininf {
+    font-family: 'Gilroy', 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #F6F6F6;
+    font-size: large;
+    padding: 50px;
+
+}
+
+#denis {
+    position: absolute;
+    right: 75%;
+    top: 20%;
+}
+
+.social {
+    display: inline;
+    padding: 40px;
+}
+
+.fine {
+    font-family: 'Gilroy', 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    padding: 80px;
+}
+
+.work {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#chat {
+    flex-wrap: wrap;
+    line-height: 4.5px;
+    margin: 20px;
+}
+
+
+header {
+
+    font-family: 'Gilroy', Tahoma, sans-serif;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    border-bottom: 1px solid #828282;
+    /*word-spacing: 150px;*/
+    font-size: x-large;
+    background-color: #FFFFFF;
+    word-wrap: break-word;
+}
+
+#person {
+    display: block;
+    margin: auto;
+    width: 65%;
+    height: 30%;
+}
+
+div#logo {
+    padding: 50px;
+    margin: 50px;
+    font-family: 'Gilroy', Geneva, Tahoma, sans-serif, Times, serif;
+
+    text-align: center;
+}
+
+.menu {
+    text-decoration: none;
+    margin: 65px;
+}
+
+.menu:hover {
+    text-decoration: underline;
+    color: #774444;
+}
+
+.menu:visited {
+    color: black;
+}
+
+.menu:link {
+    color: #828282;
+}
+
+footer {
+    color: #828282;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    margin: 80px;
+}
